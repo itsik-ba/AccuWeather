@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 
 const NavBar = () => {
   return (
-    <div className="lg:w-full flex space-x-72 py-4 px-8 ">
+    <div className="flex w-full justify-center py-2 bg-fuchsia-400 text-rose-50 font-serif space-x-12 sm:space-x-56 md:space-x-64 md:py-2 lg:space-x-80 lg:text-lg xl:justify-around">
       <div>ICON</div>
-      <div>@light/dark</div>
-      <div>
+      <div>@</div>
+      <div className="space-x-10">
       <Link to="home">Home</Link>
       <Link to="Favorites">Favorites</Link>
       </div>
